@@ -19,7 +19,7 @@ i{
 
 .video{
 	padding-left: 10px;
-	}
+}
 .petition{
 	text-align: center;
 	display: flex;
@@ -40,6 +40,7 @@ i{
 	top: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
+
 }
 .link_button{
 	margin-right: 0px;
@@ -47,6 +48,19 @@ i{
 	position: relative;
 }
 
+/*----------ANIMATION BOUTON--------*/
+
+.link_button{
+	transition-duration: 2s;
+	transition-property: background-color;
+}
+
+.link_button:hover{
+	background-color: red;
+	
+}
+
+/*----------------------------------*/
 
 .fa-search{
 	display: inline-block;
@@ -95,9 +109,11 @@ h2, h3, h4{
 	line-height: 25px;
 
 }
+
 h4{
 	font-size: 14px;
 }
+
 a{
 	padding-left: 10px;
 	text-decoration: none;
@@ -120,6 +136,7 @@ footer{
 q{
 	font-style: italic;
 }
+
 #right_footer{
 	position: absolute;
 	right: 0;
@@ -142,6 +159,7 @@ h2:first-child{
 section:last-child{
 	display: none;
 }
+
 @media screen and (min-width: 800px) {
 	
 	#principal_content{
